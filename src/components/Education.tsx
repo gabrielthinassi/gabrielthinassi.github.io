@@ -8,7 +8,8 @@ const Education: React.FC = () => {
       items: [
         {
           title: "Pós-graduação em Arquitetura de Software",
-          institution: "Universidade de São Paulo (USP)",
+          institution:
+            "FIAP - Faculdade de Informática e Administração Paulista",
           period: "2021 - 2022",
           status: "Concluído",
           description:
@@ -16,80 +17,80 @@ const Education: React.FC = () => {
         },
         {
           title: "Bacharelado em Ciência da Computação",
-          institution: "Instituto Tecnológico de São Paulo",
-          period: "2016 - 2019",
+          institution: "Centro Universitário Governador Ozanam Coelho",
+          period: "2008 - 2011",
           status: "Concluído",
           description:
             "Formação sólida em fundamentos da computação, algoritmos e estruturas de dados.",
         },
       ],
     },
-    {
-      type: "Certificações Profissionais",
-      items: [
-        {
-          title: "AWS Solutions Architect Professional",
-          institution: "Amazon Web Services",
-          period: "2023",
-          status: "Ativo",
-          description:
-            "Certificação avançada em arquitetura de soluções na nuvem AWS.",
-        },
-        {
-          title: "Certified Scrum Master (CSM)",
-          institution: "Scrum Alliance",
-          period: "2022",
-          status: "Ativo",
-          description:
-            "Certificação em metodologias ágeis e liderança de equipes Scrum.",
-        },
-        {
-          title: "Google Cloud Professional Developer",
-          institution: "Google Cloud",
-          period: "2021",
-          status: "Ativo",
-          description:
-            "Desenvolvimento de aplicações escaláveis na plataforma Google Cloud.",
-        },
-      ],
-    },
-    {
-      type: "Cursos e Especializações",
-      items: [
-        {
-          title: "Advanced React Patterns",
-          institution: "Frontend Masters",
-          period: "2023",
-          status: "Concluído",
-          description:
-            "Padrões avançados de React, performance optimization e arquitetura de componentes.",
-        },
-        {
-          title: "System Design Interview",
-          institution: "Educative",
-          period: "2022",
-          status: "Concluído",
-          description:
-            "Design de sistemas distribuídos e arquiteturas de alta escala.",
-        },
-        {
-          title: "Leadership in Tech",
-          institution: "Pluralsight",
-          period: "2022",
-          status: "Concluído",
-          description:
-            "Liderança técnica, gestão de equipes e desenvolvimento de pessoas.",
-        },
-        {
-          title: "Machine Learning Fundamentals",
-          institution: "Coursera - Stanford",
-          period: "2021",
-          status: "Concluído",
-          description:
-            "Fundamentos de machine learning e aplicações práticas em Python.",
-        },
-      ],
-    },
+    // {
+    //   type: "Certificações Profissionais",
+    //   items: [
+    //     {
+    //       title: "AWS Solutions Architect Professional",
+    //       institution: "Amazon Web Services",
+    //       period: "2023",
+    //       status: "Ativo",
+    //       description:
+    //         "Certificação avançada em arquitetura de soluções na nuvem AWS.",
+    //     },
+    //     {
+    //       title: "Certified Scrum Master (CSM)",
+    //       institution: "Scrum Alliance",
+    //       period: "2022",
+    //       status: "Ativo",
+    //       description:
+    //         "Certificação em metodologias ágeis e liderança de equipes Scrum.",
+    //     },
+    //     {
+    //       title: "Google Cloud Professional Developer",
+    //       institution: "Google Cloud",
+    //       period: "2021",
+    //       status: "Ativo",
+    //       description:
+    //         "Desenvolvimento de aplicações escaláveis na plataforma Google Cloud.",
+    //     },
+    //   ],
+    // },
+    // {
+    //   type: "Cursos e Especializações",
+    //   items: [
+    //     {
+    //       title: "Advanced React Patterns",
+    //       institution: "Frontend Masters",
+    //       period: "2023",
+    //       status: "Concluído",
+    //       description:
+    //         "Padrões avançados de React, performance optimization e arquitetura de componentes.",
+    //     },
+    //     {
+    //       title: "System Design Interview",
+    //       institution: "Educative",
+    //       period: "2022",
+    //       status: "Concluído",
+    //       description:
+    //         "Design de sistemas distribuídos e arquiteturas de alta escala.",
+    //     },
+    //     {
+    //       title: "Leadership in Tech",
+    //       institution: "Pluralsight",
+    //       period: "2022",
+    //       status: "Concluído",
+    //       description:
+    //         "Liderança técnica, gestão de equipes e desenvolvimento de pessoas.",
+    //     },
+    //     {
+    //       title: "Machine Learning Fundamentals",
+    //       institution: "Coursera - Stanford",
+    //       period: "2021",
+    //       status: "Concluído",
+    //       description:
+    //         "Fundamentos de machine learning e aplicações práticas em Python.",
+    //     },
+    //   ],
+    // },
   ];
 
   return (
