@@ -1,4 +1,3 @@
-import React from "react";
 import { motion } from "framer-motion";
 import { Calendar, MapPin, Building2 } from "lucide-react";
 
