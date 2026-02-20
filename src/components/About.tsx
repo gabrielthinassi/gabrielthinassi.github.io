@@ -3,9 +3,9 @@ import { Code, Users, Target, Award } from "lucide-react";
 
 const About: React.FC = () => {
   const stats = [
-    { icon: Code, label: "Projetos Concluídos", value: "50+" },
-    { icon: Users, label: "Equipes Lideradas", value: "8+" },
-    { icon: Target, label: "Anos de Experiência", value: "6+" },
+    { icon: Code, label: "Projetos Concluídos", value: "30+" },
+    { icon: Users, label: "Equipes Lideradas", value: "3+" },
+    { icon: Target, label: "Anos de Experiência", value: "15+" },
     { icon: Award, label: "Certificações", value: "12+" },
   ];
 
@@ -45,16 +45,22 @@ const About: React.FC = () => {
                 Minha Jornada
               </h3>
               <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
-                Comecei minha carreira como desenvolvedor júnior há 6 anos e
-                rapidamente me apaixonei pela arquitetura de software e
-                liderança técnica. Hoje, como Tech Lead, combino minha paixão
-                por código com a responsabilidade de desenvolver e guiar
-                equipes.
+                Comecei minha carreira por volta de 2007~8, lá quando meu irmão
+                levou um livro de HTML para casa, quando tive meu primeiro
+                contato com desenvolvimento web. Desde então, me apaixonei por
+                criar coisas na internet e explorar as possibilidades da
+                tecnologia. Com o tempo, meu interesse evoluiu para o
+                desenvolvimento full-stack e, rapidamente me apaixonei pela
+                arquitetura de software e liderança técnica. Hoje, como Tech
+                Lead, combino minha paixão por código com a responsabilidade de
+                desenvolver e guiar equipes.
               </p>
               <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
-                Especializo-me em JavaScript/TypeScript, React, Node.js e
-                arquiteturas de microserviços. Tenho experiência sólida em cloud
-                computing (AWS, Azure) e metodologias ágeis.
+                Atualmente minha Stack principal é C# (.NET), em todas suas
+                vertentes (Mobile, Web, Desktop), além de ter experiência sólida
+                com JavaScript/TypeScript, React, Node.js e arquiteturas de
+                microserviços. Tenho experiência sólida em cloud computing (AWS,
+                Azure) e metodologias ágeis.
               </p>
             </div>
 

@@ -57,7 +57,7 @@ const Hero: React.FC = () => {
             <div className="flex space-x-6">
               <motion.a
                 whileHover={{ scale: 1.1 }}
-                href="mailto:gabriel@email.com"
+                href="mailto:gabriel.m.thinassi@gmail.com"
                 className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
               >
                 <Mail size={24} />
