@@ -32,7 +32,7 @@ const Hero: React.FC = () => {
                 de software e desenvolvimento de pessoas.
               </p>
             </div>
-
+            {/* 
             <div className="flex flex-col sm:flex-row gap-4">
               <motion.button
                 whileHover={{ scale: 1.05 }}
@@ -51,7 +51,7 @@ const Hero: React.FC = () => {
               >
                 Ver Projetos
               </motion.a>
-            </div>
+            </div> */}
 
             {/* Social Links */}
             <div className="flex space-x-6">
