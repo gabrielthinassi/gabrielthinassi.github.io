@@ -134,20 +134,30 @@ const Skills: React.FC = () => {
           <div className="flex flex-wrap justify-center gap-4">
             {[
               "Git",
-              "Jest",
-              "Cypress",
               "GraphQL",
+              "Sensedia",
+              "Elastic Stack",
               "REST APIs",
               "Microservices",
               "Design Patterns",
               "SOLID Principles",
               "Clean Code",
               "TDD",
+              "DDD",
               "Figma",
-              "Jira",
+              "Azure DevOps",
               "Confluence",
+              "DataDog",
+              "Firebase",
+              "Supabase",
+              "AWS S3",
               "Slack",
               "VS Code",
+              "Visual Studio",
+              "Agentes de IA",
+              "Power Automate",
+              "Power BI",
+              "Power Apps",
             ].map((skill) => (
               <span
                 key={skill}
